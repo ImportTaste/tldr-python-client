@@ -29,7 +29,7 @@ setup(
             "tldr = tldr:cli"
         ]
     },
-    data_files=[('share/man/man1', ['docs/man/tldr.1'])],
+    data_files=[('share/man/man1')],
     install_requires=required,
     tests_require=[
         'pytest',
