@@ -29,7 +29,6 @@ setup(
             "tldr = tldr:cli"
         ]
     },
-    data_files=[('share/man/man1')],
     install_requires=required,
     tests_require=[
         'pytest',
